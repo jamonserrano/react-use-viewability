@@ -22,10 +22,10 @@ const Box = props => {
   const [inView, inViewRef] = useViewability({ threshold: 0.5 });
 
   return (
-	<div
-	  // Pass the received ref to the element
-	  ref={inViewRef}
-	  // Change background color when entering or leaving the viewport
+    <div
+      // Pass the received ref to the element
+      ref={inViewRef}
+      // Change background color when entering or leaving the viewport
       style={{
         backgroundColor: inView ? 'green' : 'red',
       }}
