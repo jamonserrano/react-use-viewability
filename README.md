@@ -26,9 +26,7 @@ const Box = props => {
       // Pass the received ref to the element
       ref={inViewRef}
       // Change background color when entering or leaving the viewport
-      style={{
-        backgroundColor: inView ? 'green' : 'red',
-      }}
+      style={{ backgroundColor: inView ? 'green' : 'red' }}
     />
   );
 };
