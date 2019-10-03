@@ -1,6 +1,6 @@
 {
   "name": "react-use-viewability",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React hook for tracking component viewability, based on IntersectionObserver",
   "main": "index.js",
   "scripts": {
