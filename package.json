@@ -1,0 +1,25 @@
+{
+  "name": "react-use-viewability",
+  "version": "0.1.0",
+  "description": "React hook for tracking component viewability, based on IntersectionObserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamonserrano/react-use-viewability.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "IntersectionObserver",
+    "viewability"
+  ],
+  "author": "Viktor Honti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamonserrano/react-use-viewability/issues"
+  },
+  "homepage": "https://github.com/jamonserrano/react-use-viewability#readme"
+}
